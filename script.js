@@ -4,7 +4,7 @@ const userInput = document.getElementById("user-input");
 const sendButton = document.getElementById("send-button");
 
 // Địa chỉ backend chính thức
-const backendURL = "https://thamai-backend-clean-5.onrender.com/chat";
+const backendURL = "https://thamai-backend-clean-wu90.onrender.com/chat";
 
 // Hàm hiển thị tin nhắn lên khung chat
 function appendMessage(content, className) {
@@ -53,4 +53,5 @@ userInput.addEventListener("keydown", (event) => {
   if (event.key === "Enter") {
     sendButton.click();
   }
+
 });
